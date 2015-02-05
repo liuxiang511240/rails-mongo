@@ -11,3 +11,19 @@
  *= require_self
  *= require_tree .
  */
+table th, table td {
+    border: 1px solid #BBBBBB;
+    padding: 5px;
+}
+
+table th {
+    background-color: #eeeeee;
+}
+
+BODY {
+    padding: 10px;
+    margin: 0;
+    font: 14px "微软雅黑", Verdana, Lucida, Helvetica, Arial, sans-serif;
+    color: #333;
+    background-color: #e5e5e5;
+}
