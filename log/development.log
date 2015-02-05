@@ -1,0 +1,1499 @@
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-05 14:21:10 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (1.5ms)
+Completed 200 OK in 29ms (Views: 9.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-02-05 15:02:09 +0800
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/railties-4.0.1/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 29ms (Views: 6.7ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:02:16 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 793ms (Views: 697.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:17 +0800
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:02:22 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (22.0ms)
+  Rendered projects/new.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:02:29 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"tony"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d315854b4dda0f48000002
+Completed 302 Found in 4ms
+
+
+Started GET "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:02:29 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.0ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:02:38 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 11ms (Views: 9.1ms)
+
+
+Started GET "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:02:43 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 7.3ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:02:46 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 6.9ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:02:48 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (2.2ms)
+  Rendered projects/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:02:55 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"john"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d3159f4b4dda0f48000004
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d3159f4b4dda0f48000004" for 127.0.0.1 at 2015-02-05 15:02:55 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d3159f4b4dda0f48000004"}
+  Rendered projects/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 6.5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:55 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:02:55 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:02:55 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:02:57 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:02:58 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (2.2ms)
+  Rendered projects/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:03:03 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"yang"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d315a74b4dda0f48000006
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d315a74b4dda0f48000006" for 127.0.0.1 at 2015-02-05 15:03:03 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315a74b4dda0f48000006"}
+  Rendered projects/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 6.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:03 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:03:03 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:03 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:03:05 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 9ms (Views: 7.7ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:03:07 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.3ms)
+  Rendered projects/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 9.4ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:03:11 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"jing"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d315af4b4dda0f48000008
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d315af4b4dda0f48000008" for 127.0.0.1 at 2015-02-05 15:03:11 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315af4b4dda0f48000008"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:11 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:03:11 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:11 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:03:12 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 10ms (Views: 8.6ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:03:13 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.5ms)
+  Rendered projects/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 10ms (Views: 10.1ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:03:18 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"bruce"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d315b64b4dda0f4800000a
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d315b64b4dda0f4800000a" for 127.0.0.1 at 2015-02-05 15:03:18 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315b64b4dda0f4800000a"}
+  Rendered projects/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 7.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:18 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:18 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:03:18 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:03:20 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 7.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:03:21 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.6ms)
+  Rendered projects/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"james"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d315bd4b4dda0f4800000c
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d315bd4b4dda0f4800000c" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315bd4b4dda0f4800000c"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:03:25 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:03:27 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 9.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:03:30 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.4ms)
+  Rendered projects/new.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"anli"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d316b44b4dda0f4800000e
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d316b44b4dda0f4800000e" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d316b44b4dda0f4800000e"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:32 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:07:34 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 13ms (Views: 10.2ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:07:36 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.5ms)
+  Rendered projects/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 10ms (Views: 9.5ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"china"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d316bd4b4dda0f48000010
+Completed 302 Found in 2ms
+
+
+Started GET "/projects/54d316bd4b4dda0f48000010" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d316bd4b4dda0f48000010"}
+  Rendered projects/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 8ms (Views: 7.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:07:41 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:07:42 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 13ms (Views: 10.8ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:07:43 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.5ms)
+  Rendered projects/new.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 9ms (Views: 8.4ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:13:46 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 9ms (Views: 6.9ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:13:50 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.7ms)
+  Rendered projects/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 7.5ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"sun"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d318384b4dda0f48000013
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d318384b4dda0f48000013" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d318384b4dda0f48000013"}
+  Rendered projects/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:00 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:01 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 11ms (Views: 8.8ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:03 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (2.0ms)
+  Rendered projects/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"zhen"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d318414b4dda0f48000015
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d318414b4dda0f48000015" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d318414b4dda0f48000015"}
+  Rendered projects/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 6ms (Views: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:09 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:10 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 11.6ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:11 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.0ms)
+  Rendered projects/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"rails"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d318474b4dda0f48000017
+Completed 302 Found in 4ms
+
+
+Started GET "/projects/54d318474b4dda0f48000017" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d318474b4dda0f48000017"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:15 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:16 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 14ms (Views: 12.0ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:17 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.3ms)
+  Rendered projects/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"ruby"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d3184d4b4dda0f48000019
+Completed 302 Found in 2ms
+
+
+Started GET "/projects/54d3184d4b4dda0f48000019" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d3184d4b4dda0f48000019"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 5.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:21 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:24 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 13ms (Views: 9.6ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:25 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.1ms)
+  Rendered projects/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 7ms (Views: 6.7ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"english"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d3185c4b4dda0f4800001b
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d3185c4b4dda0f4800001b" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d3185c4b4dda0f4800001b"}
+  Rendered projects/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:36 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:37 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 43ms (Views: 41.2ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:39 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.1ms)
+  Rendered projects/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"price"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d318664b4dda0f4800001d
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d318664b4dda0f4800001d" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d318664b4dda0f4800001d"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:46 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:48 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 15ms (Views: 12.8ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:49 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.3ms)
+  Rendered projects/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 8ms (Views: 7.4ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"icc"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d3186e4b4dda0f4800001f
+Completed 302 Found in 2ms
+
+
+Started GET "/projects/54d3186e4b4dda0f4800001f" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d3186e4b4dda0f4800001f"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 4.6ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:14:54 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:14:55 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 14ms (Views: 11.5ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:14:56 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.3ms)
+  Rendered projects/new.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 9ms (Views: 8.3ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"rcc"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d318744b4dda0f48000021
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d318744b4dda0f48000021" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d318744b4dda0f48000021"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 4.2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:15:00 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:15:01 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 17ms (Views: 11.8ms)
+
+
+Started GET "/projects/54d315854b4dda0f48000002/edit" for 127.0.0.1 at 2015-02-05 15:15:16 +0800
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/_form.html.erb (1.6ms)
+  Rendered projects/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11ms (Views: 9.6ms)
+
+
+Started PATCH "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:15:21 +0800
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"tony1"}, "commit"=>"Update Project", "id"=>"54d315854b4dda0f48000002"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (private method `update' called for #<Project:0xb53c6878>):
+  app/controllers/projects_controller.rb:44:in `block in update'
+  app/controllers/projects_controller.rb:43:in `update'
+
+
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/brucewu/.rvm/gems/ruby-2.0.0-p247/gems/actionpack-4.0.1/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.4ms)
+
+
+Started PATCH "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"tony1"}, "commit"=>"Update Project", "id"=>"54d315854b4dda0f48000002"}
+Redirected to http://localhost:3000/projects/54d315854b4dda0f48000002
+Completed 302 Found in 8ms
+
+
+Started GET "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 4.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:28:25 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:28:29 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 15ms (Views: 12.3ms)
+
+
+Started DELETE "/projects/54d318744b4dda0f48000021" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "id"=>"54d318744b4dda0f48000021"}
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 3ms
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 15ms (Views: 12.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:30:15 +0800
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:32:17 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (1.9ms)
+  Rendered projects/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.5ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"dgxdfghf"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d31c854b4dda0f48000023
+Completed 302 Found in 3ms
+
+
+Started GET "/projects/54d31c854b4dda0f48000023" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d31c854b4dda0f48000023"}
+  Rendered projects/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 5.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:32:21 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:38:39 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 20ms (Views: 11.4ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:38:41 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (3.2ms)
+  Rendered projects/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 12ms (Views: 11.1ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"dsfsdf", "priority"=>"2"}, "commit"=>"Create Project"}
+Unpermitted parameters: priority
+Redirected to http://localhost:3000/projects/54d31e0b4b4dda0f48000025
+Completed 302 Found in 4ms
+
+
+Started GET "/projects/54d31e0b4b4dda0f48000025" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d31e0b4b4dda0f48000025"}
+  Rendered projects/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 8ms (Views: 6.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:51 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:38:52 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:38:52 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:41:20 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 20ms (Views: 12.5ms)
+
+
+Started GET "/projects/new" for 127.0.0.1 at 2015-02-05 15:41:21 +0800
+Processing by ProjectsController#new as HTML
+  Rendered projects/_form.html.erb (3.5ms)
+  Rendered projects/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 11ms (Views: 10.8ms)
+
+
+Started POST "/projects" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+Processing by ProjectsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"dsggsdf", "priority"=>"3"}, "commit"=>"Create Project"}
+Redirected to http://localhost:3000/projects/54d31ea44b4dda0f48000027
+Completed 302 Found in 6ms
+
+
+Started GET "/projects/54d31ea44b4dda0f48000027" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d31ea44b4dda0f48000027"}
+  Rendered projects/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 7ms (Views: 5.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:41:24 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:41:26 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 15ms (Views: 12.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 18ms (Views: 15.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:42:42 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:43:00 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 22ms (Views: 16.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:01 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 19ms (Views: 16.4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:19 +0800
+
+
+Started DELETE "/projects/54d31e0b4b4dda0f48000025" for 127.0.0.1 at 2015-02-05 15:43:31 +0800
+Processing by ProjectsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "id"=>"54d31e0b4b4dda0f48000025"}
+Redirected to http://localhost:3000/projects
+Completed 302 Found in 6ms
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:43:31 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 22ms (Views: 18.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:32 +0800
+
+
+Started GET "/projects/54d3159f4b4dda0f48000004/edit" for 127.0.0.1 at 2015-02-05 15:43:42 +0800
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"54d3159f4b4dda0f48000004"}
+  Rendered projects/_form.html.erb (2.4ms)
+  Rendered projects/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 11ms (Views: 8.3ms)
+
+
+Started PATCH "/projects/54d3159f4b4dda0f48000004" for 127.0.0.1 at 2015-02-05 15:43:45 +0800
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"john", "priority"=>"2"}, "commit"=>"Update Project", "id"=>"54d3159f4b4dda0f48000004"}
+Redirected to http://localhost:3000/projects/54d3159f4b4dda0f48000004
+Completed 302 Found in 5ms
+
+
+Started GET "/projects/54d3159f4b4dda0f48000004" for 127.0.0.1 at 2015-02-05 15:43:45 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d3159f4b4dda0f48000004"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:43:46 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:43:50 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 17ms (Views: 14.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 20ms (Views: 16.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:07 +0800
+
+
+Started GET "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:47:09 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 8ms (Views: 6.2ms)
+
+
+Started GET "/projects/54d315854b4dda0f48000002/edit" for 127.0.0.1 at 2015-02-05 15:47:13 +0800
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/_form.html.erb (2.1ms)
+  Rendered projects/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 8.9ms)
+
+
+Started PATCH "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1AcqLwBgx5ef0AtAEdFYqK3SC6dmJw88VoN6qLPBogA=", "project"=>{"name"=>"tony1", "priority"=>"2"}, "commit"=>"Update Project", "id"=>"54d315854b4dda0f48000002"}
+Redirected to http://localhost:3000/projects/54d315854b4dda0f48000002
+Completed 302 Found in 4ms
+
+
+Started GET "/projects/54d315854b4dda0f48000002" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315854b4dda0f48000002"}
+  Rendered projects/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 6.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:47:16 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:47:18 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 21ms (Views: 17.1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 23ms (Views: 13.2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:50:49 +0800
+
+
+Started GET "/projects/54d315a74b4dda0f48000006" for 127.0.0.1 at 2015-02-05 15:50:52 +0800
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"54d315a74b4dda0f48000006"}
+  Rendered projects/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 5.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:50:57 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 19ms (Views: 16.9ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-05 15:51:29 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 21ms (Views: 16.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 15:51:30 +0800
