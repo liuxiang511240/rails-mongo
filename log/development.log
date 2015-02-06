@@ -2500,3 +2500,39 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-05 17:12:35 +0800
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-05 17:12:35 +0800
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-02-06 11:58:43 +0800
+Processing by ProjectsController#index as HTML
+  Rendered projects/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 242ms (Views: 109.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-06 11:58:44 +0800
