@@ -1,0 +1,33 @@
+<h1>Listing poetries</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>content</th>
+      <th>Author</th>
+      <th>时间</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @poetries.each do |poetry| %>
+      <tr>
+        <td><%= poetry.title %></td>
+        <td><%= poetry.content -%></td>
+        <td><%= poetry.author -%></td>
+        <td><%= poetry.created_at -%></td>
+        <td><%= link_to 'Show', poetry %></td>
+        <td><%= link_to 'Edit', edit_poetry_path(poetry) %></td>
+        <td><%= link_to 'Destroy', poetry, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Poetry', new_poetry_path %>
