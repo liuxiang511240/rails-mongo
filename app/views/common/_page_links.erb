@@ -1,0 +1,14 @@
+<% params||={} %>
+
+<div class="clearfix" style="vertical-align: middle;line-height: 30px;">
+  <div class="pagin">
+    <%= will_paginate(pages, :params => page_params(params), :previous_label => "上一页", :next_label => "下一页") %>
+  </div>
+  &nbsp;&nbsp;&nbsp;&nbsp;<%= "总共#{pages.total_entries}条数据" %>
+</div>
+<% if defined?(with_selector) and with_selector %>
+    <% url = url_for(:params => page_params(params)) %>
+    跳到 <%= content_tag "select", (1..pages.total_pages).map { |p| content_tag("option", [p, "页"].join, {:value => p,
+                                                                                                        :selected => (params[:page]==p.to_s ? true : nil)}) }.join,
+                       {:onchange => "window.location.href='#{url}&page='+this.value;"} %>
+<% end %>

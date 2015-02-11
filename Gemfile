@@ -31,6 +31,9 @@ group :doc do
 end
 gem 'mongo_mapper'
 gem 'bson_ext'
+gem 'will_paginate'
+gem 'bootstrap-sass', '2.1.1'
+gem 'bootstrap-will_paginate'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

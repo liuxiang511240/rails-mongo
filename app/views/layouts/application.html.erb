@@ -7,9 +7,14 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-<h1>刘向平的网站</h1>
-<hr/>
-<%= yield %>
-
+<div id="container">
+  <%= render :partial => 'layouts/header' -%>
+  <div class="inner wrap clearfix">
+    <div class="inner_top"><%= render :partial => 'layouts/top' -%></div>
+    <div class="sidebar"><%= render :partial => 'layouts/sidebar' -%></div>
+    <div class="content clearfix"><%= yield %></div>
+  </div>
+  <%= render :partial => 'layouts/footer' -%>
+</div>
 </body>
 </html>

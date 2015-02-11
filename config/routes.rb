@@ -1,4 +1,15 @@
 Todo::Application.routes.draw do
+  resources :topics
+
+  resources :pieces
+
+  resources :proses
+
+  resources :songs
+
+  resources :poetries
+
+  root :controller => :users, :action => :index
   resources :users
 
   resources :projects
