@@ -4,7 +4,7 @@ class ProsesController < ApplicationController
   # GET /proses
   # GET /proses.json
   def index
-    @proses = Prose.all
+    @proses = Prose.paginate(:per_page => 10, :page => params[:page]||1)
   end
 
   # GET /proses/1
@@ -41,7 +41,7 @@ class ProsesController < ApplicationController
   # PATCH/PUT /proses/1.json
   def update
     respond_to do |format|
-      if @prose.update(prose_params)
+      if @prose.update_attributes(prose_params)
         format.html { redirect_to @prose, notice: 'Prose was successfully updated.' }
         format.json { head :no_content }
       else
@@ -62,13 +62,13 @@ class ProsesController < ApplicationController
   end
 
   private
-    # Use callbacks to share common setup or constraints between actions.
-    def set_prose
-      @prose = Prose.find(params[:id])
-    end
+  # Use callbacks to share common setup or constraints between actions.
+  def set_prose
+    @prose = Prose.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def prose_params
-      params.require(:prose).permit(:title)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def prose_params
+    params[:prose].merge!(:created_at => (@poetry.blank? or @poetry.created_at.blank?) ? Time.now : @poetry.created_at)
+  end
 end

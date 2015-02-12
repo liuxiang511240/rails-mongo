@@ -9696,3 +9696,229 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 17:39:11
 
 
 Started GET "/assets/liu0.jpg" for 127.0.0.1 at 2015-02-11 17:39:11 +0800
+
+
+Started GET "/poetries" for 127.0.0.1 at 2015-02-11 17:46:20 +0800
+Processing by PoetriesController#index as HTML
+  Rendered poetries/index.html.erb within layouts/application (1.7ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.3ms)
+  Rendered layouts/_sidebar.erb (0.2ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 13.8ms)
+
+
+Started GET "/assets/liu1.jpg" for 127.0.0.1 at 2015-02-11 17:46:20 +0800
+
+
+Started GET "/proses" for 127.0.0.1 at 2015-02-11 17:46:28 +0800
+Processing by ProsesController#index as HTML
+  Rendered proses/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (2.4ms)
+  Rendered layouts/_sidebar.erb (0.3ms)
+  Rendered layouts/_footer.erb (0.4ms)
+Completed 200 OK in 24ms (Views: 16.2ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 17:46:28 +0800
+
+
+Started GET "/poetries" for 127.0.0.1 at 2015-02-11 17:46:32 +0800
+Processing by PoetriesController#index as HTML
+  Rendered poetries/index.html.erb within layouts/application (0.9ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.5ms)
+  Rendered layouts/_sidebar.erb (0.2ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 15.3ms)
+
+
+Started GET "/assets/liu1.jpg" for 127.0.0.1 at 2015-02-11 17:46:32 +0800
+
+
+Started GET "/proses" for 127.0.0.1 at 2015-02-11 17:50:20 +0800
+Processing by ProsesController#index as HTML
+  Rendered proses/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (2.2ms)
+  Rendered layouts/_sidebar.erb (0.3ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 23ms (Views: 15.4ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 17:50:20 +0800
+
+
+Started GET "/proses/new" for 127.0.0.1 at 2015-02-11 17:50:22 +0800
+Processing by ProsesController#new as HTML
+  Rendered proses/_form.html.erb (4.1ms)
+  Rendered proses/new.html.erb within layouts/application (6.5ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.5ms)
+  Rendered layouts/_sidebar.erb (0.3ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 58ms (Views: 57.1ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 17:50:22 +0800
+
+
+Started POST "/proses" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+Processing by ProsesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2RvMHQsfvqmrNGzimeBAZ5CjKbpcETOD3vZoD7UJ97k=", "prose"=>{"title"=>"滕王阁序", "content"=>"豫章故郡，洪都新府。星分翼轸，地接衡庐。襟三江而带五湖，控蛮荆而引瓯越。物华天宝，龙光射牛斗之墟；人杰地灵，徐孺下陈蕃之榻。雄州雾列，俊采星驰。台隍枕夷夏之交，宾主尽东南之美。都督阎公之雅望，棨戟遥临；宇文新州之懿范，襜帷暂驻。十旬休假，胜友如云；千里逢迎，高朋满座。腾蛟起凤，孟学士之词宗；紫电青霜，王将军之武库。家君作宰，路出名区；童子何知，躬逢胜饯。(豫章故郡 一作：南昌故郡)\r\n　　时维九月，序属三秋。潦水尽而寒潭清，烟光凝而暮山紫。俨骖騑于上路，访风景于崇阿。临帝子之长洲，得仙人之旧馆。层峦耸翠，上出重霄；飞阁流丹，下临无地。鹤汀凫渚，穷岛屿之萦回；桂殿兰宫，即冈峦之体势。（层峦  一作：层台；即冈 一作：列冈；天人 一作：仙人）\r\n　　披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰迷津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨，雁阵惊寒，声断衡阳之浦。(轴 通：舳；迷津 一作：弥津；云销雨霁，彩彻区明 一作：虹销雨霁，彩彻云衢)\r\n　　遥襟甫畅，逸兴遄飞。爽籁发而清风生，纤歌凝而白云遏。睢园绿竹，气凌彭泽之樽；邺水朱华，光照临川之笔。四美具，二难并。穷睇眄于中天，极娱游于暇日。天高地迥，觉宇宙之无穷；兴尽悲来，识盈虚之有数。望长安于日下，目吴会于云间。地势极而南溟深，天柱高而北辰远。关山难越，谁悲失路之人；萍水相逢，尽是他乡之客。怀帝阍而不见，奉宣室以何年？(遥襟甫畅 一作：遥吟俯畅)\r\n　　嗟乎！时运不齐，命途多舛。冯唐易老，李广难封。屈贾谊于长沙，非无圣主；窜梁鸿于海曲，岂乏明时？所赖君子见机，达人知命。老当益壮，宁移白首之心？穷且益坚，不坠青云之志。酌贪泉而觉爽，处涸辙以犹欢。北海虽赊，扶摇可接；东隅已逝，桑榆非晚。孟尝高洁，空余报国之情；阮籍猖狂，岂效穷途之哭！(见机 一作：安贫)\r\n　　勃，三尺微命，一介书生。无路请缨，等终军之弱冠；有怀投笔，慕宗悫之长风。舍簪笏于百龄，奉晨昏于万里。非谢家之宝树，接孟氏之芳邻。他日趋庭，叨陪鲤对；今兹捧袂，喜托龙门。杨意不逢，抚凌云而自惜；钟期既遇，奏流水以何惭？\r\n　　呜乎！胜地不常，盛筵难再；兰亭已矣，梓泽丘墟。临别赠言，幸承恩于伟饯；登高作赋，是所望于群公。敢竭鄙怀，恭疏短引；一言均赋，四韵俱成。请洒潘江，各倾陆海云尔：\r\n　　滕王高阁临江渚，佩玉鸣鸾罢歌舞。\r\n　　画栋朝飞南浦云，珠帘暮卷西山雨。\r\n　　闲云潭影日悠悠，物换星移几度秋。\r\n　　阁中帝子今何在？槛外长江空自流。", "author"=>"王勃"}, "commit"=>"Create Prose"}
+Redirected to http://localhost:4003/proses/54db26124b4dda3a4f000023
+Completed 302 Found in 6ms
+
+
+Started GET "/proses/54db26124b4dda3a4f000023" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+Processing by ProsesController#show as HTML
+  Parameters: {"id"=>"54db26124b4dda3a4f000023"}
+  Rendered proses/show.html.erb within layouts/application (1.5ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (2.4ms)
+  Rendered layouts/_sidebar.erb (0.4ms)
+  Rendered layouts/_footer.erb (0.0ms)
+Completed 200 OK in 18ms (Views: 16.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/pieces.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/poetries.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/proses.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/songs.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/topics.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/pieces.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/poetries.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/proses.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/songs.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/topics.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/assets/liu1.jpg" for 127.0.0.1 at 2015-02-11 17:51:14 +0800
+
+
+Started GET "/proses" for 127.0.0.1 at 2015-02-11 18:09:43 +0800
+Processing by ProsesController#index as HTML
+  Rendered proses/index.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.erb (0.2ms)
+  Rendered layouts/_top.erb (2.8ms)
+  Rendered layouts/_sidebar.erb (0.8ms)
+  Rendered layouts/_footer.erb (0.4ms)
+Completed 200 OK in 33ms (Views: 28.6ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 18:09:43 +0800
+
+
+Started GET "/proses/new" for 127.0.0.1 at 2015-02-11 18:09:50 +0800
+Processing by ProsesController#new as HTML
+  Rendered proses/_form.html.erb (3.0ms)
+  Rendered proses/new.html.erb within layouts/application (4.8ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.0ms)
+  Rendered layouts/_sidebar.erb (0.2ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 19ms (Views: 18.2ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 18:09:50 +0800
+
+
+Started GET "/poetries" for 127.0.0.1 at 2015-02-11 18:09:56 +0800
+Processing by PoetriesController#index as HTML
+  Rendered poetries/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.erb (0.2ms)
+  Rendered layouts/_top.erb (2.6ms)
+  Rendered layouts/_sidebar.erb (0.5ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 43ms (Views: 29.9ms)
+
+
+Started GET "/assets/liu2.jpg" for 127.0.0.1 at 2015-02-11 18:09:56 +0800
+
+
+Started GET "/proses" for 127.0.0.1 at 2015-02-11 18:09:59 +0800
+Processing by ProsesController#index as HTML
+  Rendered proses/index.html.erb within layouts/application (0.6ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.4ms)
+  Rendered layouts/_sidebar.erb (1.4ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 18ms (Views: 15.6ms)
+
+
+Started GET "/assets/liu1.jpg" for 127.0.0.1 at 2015-02-11 18:09:59 +0800
+
+
+Started GET "/proses" for 127.0.0.1 at 2015-02-11 18:10:19 +0800
+Processing by ProsesController#index as HTML
+  Rendered proses/index.html.erb within layouts/application (0.8ms)
+  Rendered layouts/_header.erb (0.0ms)
+  Rendered layouts/_top.erb (1.8ms)
+  Rendered layouts/_sidebar.erb (0.8ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 17ms (Views: 14.7ms)
+
+
+Started GET "/assets/liu0.jpg" for 127.0.0.1 at 2015-02-11 18:10:19 +0800
+
+
+Started GET "/poetries" for 127.0.0.1 at 2015-02-11 18:10:20 +0800
+Processing by PoetriesController#index as HTML
+  Rendered poetries/index.html.erb within layouts/application (1.2ms)
+  Rendered layouts/_header.erb (0.1ms)
+  Rendered layouts/_top.erb (1.3ms)
+  Rendered layouts/_sidebar.erb (0.3ms)
+  Rendered layouts/_footer.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 13.1ms)
+
+
+Started GET "/assets/liu1.jpg" for 127.0.0.1 at 2015-02-11 18:10:20 +0800

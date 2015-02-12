@@ -4,6 +4,9 @@
   <thead>
     <tr>
       <th>Title</th>
+      <th>content</th>
+      <th>Author</th>
+      <th>时间</th>
       <th></th>
       <th></th>
       <th></th>
@@ -14,6 +17,9 @@
     <% @proses.each do |prose| %>
       <tr>
         <td><%= prose.title %></td>
+        <td><%= prose.content -%></td>
+        <td><%= prose.author -%></td>
+        <td><%= prose.created_at -%></td>
         <td><%= link_to 'Show', prose %></td>
         <td><%= link_to 'Edit', edit_prose_path(prose) %></td>
         <td><%= link_to 'Destroy', prose, method: :delete, data: { confirm: 'Are you sure?' } %></td>
